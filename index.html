@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Kumari Khushi</title>
+
+  
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+   <!-- navbar starts -->
+<nav
+id="navbar-top"
+class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+>
+<div class="container-fluid px-5">
+  <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+    >Portfolio</a
+  >
+  <button
+    class="nav-menu d-md-none"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarNav"
+  >
+    <i class="bi bi-menu-button-fill"></i>
+  </button>
+  <div
+    class="collapse navbar-collapse justify-content-center"
+    id="navbarNav"
+  >
+    <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#education">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#training">Experience</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#portfolio">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#certificates">Certificates/Certifications</a>
+      </li>
+      <li class="nav-item d-md-none">
+        <!-- Also show contact in mobile view -->
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+  <!-- Updated contact button to scroll to contact section -->
+  <a href="#contact" class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block">Contact</a>
+</div>
+</nav>
+<!-- navbar ends here -->
+
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">Kumari Khushi</span>
+          </h2>
+          <p class="text-muted">
+            I am a B.Tech CSE student at LPU with a passion for Cloud Computing and Full-Stack Development. I am skilled in AWS, Docker, and Swift, and I create real-world solutions while exploring iOS app development through hands-on projects.</p>
+          <!-- Social icons -->
+<div class="mt-4" style="font-size: 1.5rem;">
+  <a href="www.linkedin.com/in/khushiojha07" target="_blank" style="color: #3f396d; margin-right: 15px;">
+    <img src="images/linkedin.png" alt="GitHub" style="width: 90px; height: 90px;" />
+  </a>
+  <a href="https://github.com/khushikumari07" target="_blank" style="color: #3f396d; margin-right: 15px;">
+    <img src="images/github.png" alt="GitHub" style="width: 90px; height: 90px;" />
+  </a>
+  
+  
+</div>
+          
+          <a href="" class="link ms-4 d-none">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="images/KHUSHA.jpg" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+   
+
+
+ <!-- about me section starts -->
+<section class="about mt-5 py-5" id="about">
+  <div class="row justify-content-evenly">
+    
+    <!-- Skills Icons Grid -->
+    <div class="col-10 col-md-5 skill-with-icons" data-aos="slide-right">
+      <div class="row justify-content-evenly">
+        
+        <!-- Skill: C++ -->
+        <div class="col-10 col-md-6">
+          <div class="icon-card text-center bg-white p-4 rounded shadow-sm mb-4">
+            <img src="images/c++.png" alt="C++ Icon" class="mb-3" style="width: 90px; height: 90px;">
+           
+          </div>
+        </div>
+
+        <!-- Skill: Java -->
+        <div class="col-10 col-md-6">
+          <div class="icon-card text-center bg-white p-4 rounded shadow-sm mb-4">
+            <img src="images/java.png" alt="Java Icon" class="mb-3" style="width: 90px; height: 90px;">
+            
+          </div>
+        </div>
+
+        <!-- Skill: R -->
+        <div class="col-10 col-md-6">
+          <div class="icon-card text-center bg-white p-4 rounded shadow-sm mb-4">
+            <img src="images/python.jpg" alt="R Icon" class="mb-3" style="width: 90px; height: 90px;">
+            
+          </div>
+        </div>
+
+        <!-- Skill: SQL -->
+        <div class="col-10 col-md-6">
+          <div class="icon-card text-center bg-white p-4 rounded shadow-sm mb-4">
+            <img src="images/html.jpg" alt="SQL Icon" class="mb-3" style="width: 90px; height: 90px;">
+            
+          </div>
+        </div>
+
+        <!-- Skill: HTML -->
+        <div class="col-10 col-md-6">
+          <div class="icon-card text-center bg-white p-4 rounded shadow-sm mb-4">
+            <img src="images/css.jpg" alt="HTML Icon" class="mb-3" style="width: 90px; height: 90px;">
+            
+          </div>
+        </div>
+
+        <!-- Skill: CSS -->
+        <div class="col-10 col-md-6">
+          <div class="icon-card text-center bg-white p-4 rounded shadow-sm mb-4">
+            <img src="images/js.jpg" alt="CSS Icon" class="mb-3" style="width: 90px; height: 90px;">
+            
+          </div>
+        </div>
+
+        <!-- Skill: AWS -->
+        <div class="col-10 col-md-6">
+          <div class="icon-card text-center bg-white p-4 rounded shadow-sm mb-4">
+            <img src="images/aws.png" alt="AWS Icon" class="mb-3" style="width: 90px; height: 90px;">
+            
+          </div>
+        </div>
+
+        <!-- Skill: Hadoop -->
+        <div class="col-10 col-md-6">
+          <div class="icon-card text-center bg-white p-4 rounded shadow-sm mb-4">
+            <img src="images/sql.jpg" alt="SQL Icon" class="mb-3" style="width: 90px; height: 90px;">
+            
+          </div>
+        </div>
+
+        <!-- Skill: Azure -->
+        <div class="col-10 col-md-6">
+          <div class="icon-card text-center bg-white p-4 rounded shadow-sm mb-4">
+            <img src="images/azure.jpg" alt="azure Icon" class="mb-3" style="width: 90px; height: 90px;">
+           
+          </div>
+        </div>
+
+        
+
+        <!-- Skill: Linux -->
+        
+
+      </div>
+    </div>
+
+    <!-- Right-side About Me description -->
+    <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+      <div class="heading mt-5 mt-md-3">
+        <small>About Me</small>
+        <h3>Creating seamless digital solutions with a foundation in cloud computing and growing full-stack skills.</h3>
+        <p class="text-muted">
+          I’m <strong>Khushi</strong>,a passionate full-stack developer and cloud enthusiast.My technical skill set includes C++, JavaScript, Java, AWS, Azure, RDS, and Swift — enabling me to build responsive and user-friendly applications.
+          <br><br>
+
+I bring hands-on experience with cloud platforms like AWS & Azure, DevOps tools like Docker & Kubernetes, and a strong foundation in C++, Python, and Java. I'm driven by curiosity, collaboration, and a deep belief in technology’s power to create meaningful change.
+        </p>
+        <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+          <a href="new cv3.pdf" download="kumari__Khushi" style="text-decoration: none; color: #fff;">
+            Download CV
+          </a>
+        </button>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<!-- about me section ends here -->
+ <!-- education section starts -->
+<section class="education py-5" id="education">
+  <div class="heading text-center">
+    <small>My Academic Background</small>
+    <h3>Education</h3>
+  </div>
+
+  <div class="container mt-4">
+    <div class="row">
+      <!-- Education Card 1: BTech -->
+      <div class="col-12 col-md-6 mb-4">
+        <div class="card shadow-sm p-3">
+          <div class="card-body">
+            <img src="images/lpu.png" alt="Children's Academy Logo" class="mb-3" style="max-width: 100px; height: auto;">
+            <h5 class="card-title">Bachelor of Technology (B.Tech) - Computer Science and Engineering</h5>
+            <p class="card-text text-muted">University: Lovely Professional University</p>
+            <p class="card-text text-muted">Year of Graduation: 2026</p>
+            <p class="card-text">Specialized in cloud computing, virtualization, and deploying scalable web solutions.</p>
+            <a href="https://www.lpu.in/" target="_blank" class="btn btn-primary">Visit University</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education Card 2: High School -->
+      <div class="col-12 col-md-6 mb-4">
+        <div class="card shadow-sm p-3">
+          <div class="card-body">
+            <img src="images/school.png" alt="Children's Academy Logo" class="mb-3" style="max-width: 100px; height: auto;">
+            <h5 class="card-title">Intermediate - Science Stream</h5>
+            <p class="card-text text-muted">School: Sambhawana Awasiya Uchcha Vidyalaya</p>
+            <p class="card-text text-muted">Year of Graduation: 2021</p>
+            <p class="card-text">Focused on science subjects with a particular interest in Mathematics and Computer Science.</p>
+            <a href="https://sambhawanavid.com/index.html/" target="_blank" class="btn btn-primary">Visit School</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- education section ends -->
+
+  <!-- expertise section starts -->
+  <section class="expertise mt-5" id="training">
+    <div class="heading text-center">
+      <small>My Training</small>
+      <h3>
+        Built a strong foundation in Data Structures and Algorithms with hands-on learning.
+      </h3>
+    </div>
+    <div class="row justify-content-center mt-5">
+      <!-- Training Experience: GFG -->
+      <div class="col-10 col-md-6" data-aos="fade-up">
+        <div class="service-card">
+          <div class="img">
+            <img
+              src="images/gfg.png"
+              class="w-25 img-fluid img"
+              alt="Training Icon"
+            />
+          </div>
+          <div class="content mt-3">
+            <h4>Data Structure and algorithm</h4>
+            <p class="text-muted">
+              Completed DSA training at GeeksforGeeks (June–July 2024).
+              Worked on core topics like arrays, linked lists, trees, and graphs.Enhanced problem-solving skills through hands-on projects.            </p>
+            <ul class="text-muted ps-3">
+              <li>Interactive live sessions with project-based learning</li>
+              <li>Solved problems and built mini-projects using core data structures and algorithms</li>
+              <li>Strengthened skills in recursion, dynamic programming, trees, graphs, and problem-solving</li>
+            </ul>
+            <a href="#portfolio" class="link">View Training Projects</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- expertise section ends here -->
+<!-- portfolio section starts here -->
+<section class="portfolio" id="portfolio">
+  <div class="heading text-center pt-5">
+    <small>Creative Work</small>
+    <h3> My Projects</h3>
+  </div>
+
+  <div id="myBtnContainer" class="text-center mt-4">
+    <button class="filter-item" data-filter="all">All</button>
+    <button class="filter-item" data-filter="game">Game</button>
+    <button class="filter-item" data-filter="website">Website</button>
+    
+  </div>
+
+  <div class="portfolio-body">
+    <div class="row justify-content-evenly px-4">
+      
+      <!-- Car Dodger Game -->
+      <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <img src="images/mobileroller.png" class="card-img-top" alt="Car Dodger Game" />
+          <div class="card-body text-center">
+            <h4 class="card-title">MobileRoller app</h4>
+            <span class="badge bg-secondary badge-pill">APK Generator</span>
+            <span class="badge bg-secondary badge-pill">Drag-and-Drop Builder</span>
+            <span class="badge bg-secondary badge-pill mb-2">App</span><br />
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- Blogging Website -->
+     
+
+      <!-- mobile roller -->
+      <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <img src="images/instClone.png" class="card-img-top" alt="Tic Tac Toe" />
+          <div class="card-body text-center">
+            <h4 class="card-title">Instagram Clone </h4>
+            <span class="badge bg-secondary badge-pill">HTML & CSS</span>
+            <span class="badge bg-secondary badge-pill">JavaScript</span>
+            <span class="badge bg-secondary badge-pill mb-2">Clone</span><br />
+              
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row justify-content-evenly mt-4 px-4">
+      
+      
+      
+
+  
+
+
+
+    </div>
+  </div>
+</section>
+<!-- certificates section starts here -->
+<section class="certificates py-5" id="certificates">
+  <div class="heading text-center">
+    <small>My Achievements</small>
+    <h3>Certificates/Cerifications</h3>
+  </div>
+
+  <div class="row justify-content-center mt-4 px-4">
+    <!-- Certificate Card 1 -->
+    <div class="col-10 col-md-4 mb-4" data-aos="fade-up">
+      <div class="card text-center shadow-sm p-3">
+        <img src="images/azureCerti.png" class="card-img-top" alt="Certificate 1" />
+        <div class="card-body">
+          <h5 class="card-title">Azure - Microsoft</h5>
+          <a href="azure certificate.pdf" target="_blank" class="link">View Certificate</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Certificate Card 2 -->
+    <div class="col-10 col-md-4 mb-4" data-aos="fade-up">
+      <div class="card text-center shadow-sm p-3">
+        <img src="images/dsa.png" class="card-img-top" alt="Certificate 2" />
+        <div class="card-body">
+          <h5 class="card-title">DSA</h5>
+          <a href="udemy_dsa.pdf" target="_blank" class="link">View Certificate</a>
+        </div>
+      </div>
+    </div>
+
+   
+  
+</section>
+<!-- certificates section ends here -->
+
+<!-- portfolio section ends here -->
+
+
+
+    
+    
+<!-- contact section starts -->
+<section class="contact py-5" id="contact">
+  <div class="heading text-center">
+    <small>Get in Touch</small>
+    <h3>Any Questions? Feel Free to Contact</h3>
+  </div>
+  <div class="row justify-content-evenly mt-5">
+    <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+      <div class="row justify-content-evenly">
+        <div class="col-1">
+          <i class="bi bi-geo-alt-fill"></i>
+        </div>
+        <div class="col-11">
+          <p>Arrah, Bihar</p>
+        </div>
+      </div>
+      <div class="row justify-content-evenly">
+        <div class="col-1">
+          <i class="bi bi-telephone-fill"></i>
+        </div>
+        <div class="col-11">
+          <p>+91 7061190897</p>
+        </div>
+      </div>
+      <div class="row justify-content-evenly">
+        <div class="col-1">
+          <i class="bi bi-envelope-fill"></i>
+        </div>
+        <div class="col-11">
+          <a href="mailto:ojhakhushi003@gmail.com" class="text-decoration-none text-dark">
+            ojhakhushi003@gmail.com
+          </a>
+        </div>
+      </div>
+      
+    <div class="col-md-7 col-12 mt-3 mt-md-0" data-aos="slide-left">
+      <div class="contact-form">
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Name"
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="E-mail"
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Mobile No."
+          />
+        </div>
+        <div class="mb-3">
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            placeholder="Message"
+            rows="5"
+          ></textarea>
+        </div>
+        <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+          Submit
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- contact section ends here -->
+
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#about">About</a>
+        <div class="vr"></div>
+        <a href="#training">Experience</a>
+        <div class="vr"></div>
+        <a href="#portfolio">Project</a>
+        <div class="vr"></div>
+        <a href="#certificates">Certificates</a>
+        <div class="vr"></div>
+        
+
+
+        <a href="#contact">Contact</a>
+     
+      <p>Copyright 2025 Portfolio | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
